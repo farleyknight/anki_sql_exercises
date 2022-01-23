@@ -130,28 +130,22 @@ CREATE TABLE dept (
 
 Show the Dept which works the highest paid employee win the company with their names and salary
 
-
 ## Part B
 
 Determine which projects that have employees from more than one department.
-
 
 ## Part C
 
 Select employee from departments where max salary of the department is 40k
 
-
 ## Part D
 
 Select employee assigned to projects
-
 
 ## Part E
 
 Select employee which have the max salary in a given department
 
-
 ## Part F
 
 Select employee with second highest salary
-

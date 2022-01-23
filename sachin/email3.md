@@ -48,7 +48,6 @@ NOTE: `order_amt` means "order amount"
 ## Part A
 
 For each store show the % difference in sales between 2014 and 2015
-
 ### Example answer
 
 
@@ -144,3 +143,15 @@ where
 cnt=1 and prod_id='X'
 and rn<=3;
 ```
+
+# NetflixChannel
+
+Identify all accounts that watched only Netflix in a particular month - An account 
+can have multiple devices and can watch mutliple channels.
+
+Streaming data
+account_id varchar(40),
+device_id varchar(40),
+channel_name varchar(20),
+play_hours FLOAT,
+date_key varchar(10)
